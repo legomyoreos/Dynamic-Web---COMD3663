@@ -1,0 +1,12 @@
+img {
+	border-radius: 0;
+}
+
+.btn {
+	display: block;
+	margin: 30px auto;
+}
+
+.bg-light {
+    background-color: #ffc826!important;
+}

@@ -1,0 +1,107 @@
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#chanceVideo[poster] {
+   object-fit: fill;
+ }
+
+ #videoPlayer {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .buttonWrapper {
+ 	margin: 20px 0 60px 0;
+ }
+
+ .song-image {
+ 	width: 100px;
+ 	height: 100px;
+ 	margin-right: 20px;
+ }
+
+ .musicWrapper {
+ 	display: flex;
+ }
+
+ .song-info h3 {
+ 	margin:  20px 0 0 0;
+ }
+
+ img {
+ 	border-radius: 0;
+ }
+
+ .song-info h4 {
+ 	font-family: 'Lato', sans-serif;
+ 	margin: 5px 0 0 0;
+ 	font-weight: 400;
+ }
+
+ /* TYPOGRAHPY */
+
+ h1 {
+ 	font-family: 'Dosis', sans-serif;
+ 	font-weight: 700;
+ }
+
+ h2 {
+ 	font-family: 'Dosis', sans-serif;
+ 	font-weight: 700;
+ }
+
+ .video-title {
+ 	color: #fff;
+ }
+
+ h3 {
+ 	font-family: 'Dosis', sans-serif;
+ 	font-weight: 600;
+ }
+
+ p {
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 400;
+ 	border-bottom: 1px solid #f3dfa2;
+ 	padding-bottom: 10px;
+ }
+
+ a {
+ 	display: inline-block;
+ 	color: #bb4430;
+ 	margin-bottom: 10px;
+ }
+
+ .btn {
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 400;
+ 	background-color: #7ebdc2;
+ 	color: #fff;
+ }
+
+  /* COLORS */
+	/*	
+		#2f3131 black text & background for video
+	  	#bb4430 red links
+	  	#f3dfa2 tan text on black
+	  	#fff7d1 tan background for music section
+	  	#7ebdc2 blue buttons 
+	 */
+
+ /* HEADER */
+
+ header, #video-section {
+ 	background-color: #2f3131;
+ }
+
+#music-section {
+	background-color: #fff7d1;
+}
+
+
+
+
+
+

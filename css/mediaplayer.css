@@ -1,0 +1,36 @@
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#chanceVideo[poster] {
+   object-fit: fill;
+ }
+
+ #videoPlayer {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .buttonWrapper {
+ 	margin: 20px 0 60px 0;
+ }
+
+ .song-image {
+ 	width: 100px;
+ 	height: 100px;
+ }
+
+ .musicWrapper {
+ 	display: flex;
+ }
+
+ .song-info h3 {
+ 	margin:  20px 0 0 0;
+ }
+
+ .song-info h4 {
+ 	margin: 5px 0 0 0;
+ 	font-weight: 400;
+ }
+

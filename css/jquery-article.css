@@ -1,0 +1,10 @@
+img {
+	max-width: 200px;
+	position: relative;
+}
+
+#hero {
+	max-width: 100% !important;
+	height: auto;
+	margin-bottom: 20px;
+}

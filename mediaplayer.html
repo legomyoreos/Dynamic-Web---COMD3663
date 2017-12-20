@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Project 5: Media Player</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/mediaplayer.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+		<!-- <script type="text/javascript" src="js/mediaplayer.js"></script> -->
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div id="intro" class="wrapper">
+					<h1>Project 5: <span id="project_name">Media Player</span></h1>
+					<p id="project-heading-text">Embedding videos and audio with JavaScript controls.</p>
+					<a href="index.html" class="header-link" id="all_projects">⇠ Back to all projects</a>
+				</div>
+			</header>
+			<section>
+				<div class="wrapper">
+					<h2>Chance the Rapper - Tiny Desk Concerts</h2>
+					<div id="videoPlayer">
+						<div class="videoWrapper">
+							<video id="chanceVideo" width="840" height="480"  poster="img/chance_still.png">
+								<source src="videos/chancetherapper_tinydesk.mp4" type="video/mp4"> 
+							</video>
+						</div>
+						<div class="buttonWrapper">
+							<button class="btn" onclick="playVideo()">Play ▶︎</button>
+							<button class="btn" onclick="pauseVideo()">Pause ❙❙</button>
+							<button class="btn" onclick="restartVideo()">Restart</button>
+						</div>
+					</div>
+
+					<h2>Music playlist</h2>
+					<div id="musicPlayer">
+						<div id="musicWrapper">
+							<img class="song-image" src="img/awakenmylove.jpg">
+							<div class="song-info">
+								<h3>Childish Gambino</h3>
+								<h4>Redbone</h4>
+								<audio id="childishRedbone">
+								<source src="music/childish_redbone.mp3" type="audio/mp3"> 
+							</audio>
+							</div>
+						</div>
+
+						<div class="buttonWrapper">
+							<button class="btn" onclick="playRedbone()">Play ▶︎</button>
+							<button class="btn" onclick="pauseRedbone()">Pause ❙❙</button>
+							<button class="btn" onclick="restartRedbone()">Restart</button>
+						</div>
+					</div>
+
+					<div id="musicPlayer">
+						<div id="musicWrapper">
+							<img class="song-image" src="img/dna.jpg">
+							<div class="song-info">
+								<h3>Kendrick Lamar</h3>
+								<h4>DNA</h4>
+								<audio id="kendrickDNA">
+								<source src="music/dna.mp3" type="audio/mp3"> 
+							</audio>
+							</div>
+						</div>
+
+						<div class="buttonWrapper">
+							<button class="btn" onclick="playDNA()">Play ▶︎</button>
+							<button class="btn" onclick="pauseDNA()">Pause ❙❙</button>
+							<button class="btn" onclick="restartDNA()">Restart</button>
+						</div>
+					</div>
+
+					<div id="musicPlayer">
+						<div id="musicWrapper">
+							<img class="song-image" src="img/hotline.jpg">
+							<div class="song-info">
+								<h3>Drake</h3>
+								<h4>Hotline Bling</h4>
+								<audio id="drakeHotline">
+								<source src="music/hotline.mp3" type="audio/mp3"> 
+							</audio>
+							</div>
+						</div>
+
+						<div class="buttonWrapper">
+							<button class="btn" onclick="playHotline()">Play ▶︎</button>
+							<button class="btn" onclick="pauseHotline()">Pause ❙❙</button>
+							<button class="btn" onclick="restartHotline()">Restart</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/mediaplayer.js"></script>
+	</body> 
+</html>

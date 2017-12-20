@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Project 1: Interactive Page</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div id="intro" class="wrapper">
+					<h1>Project 1: <span>Interactive Page</span></h1>
+					<p>This page tells the user a bit of information about their browser environment using JavaScript.</p>
+					<a href="index.html" class="header-link">⇠ Back to all projects</a>
+				</div>
+			</header>
+			<section>
+				<div class="wrapper">
+					<h2>Here are some cool things about your browser:</h2>
+					<div class="object-type">
+						<div>
+							<h3>The Location Object</h3>
+							<p>This object returns information about your current URL. It can do things like display the page's domain, the protocol used like HTTP or HTTPS, and the entire URL itself.</p>
+						</div>
+						<div class="object-info">
+							<p>• This page uses the following protocol: <span class="page-info"><script>document.write(location.protocol);</script></span></p>
+							<p>• This page's domain is: <span class="page-info"><script>document.write(location.hostname);</script></span></p>
+							<p>• This page's path is: <span class="page-info"><script>document.write(location.pathname);</script></span></p>
+							<p>• All the information above is used to make this entire URL: <span class="page-info"><script>document.write(location.href);</script></span></p>
+						</div>
+					</div>
+					<div class="object-type">
+						<div>
+							<h3>The Window Object</h3>
+							<p>This object returns information about your current window. It can tell you the height and width of your window, open a new window, and how many things are in your window's history. Try resizing your window and refresh the page to see some numbers change.</p>
+						</div>
+						<div class="object-info">
+							<p>• This window's inner height used for content, not including toolbars or scrollbars, is: <span class="page-info"><script>document.write(window.innerHeight);</script></span></p>
+							<p>• This window's inner width used for content, not including toolbars or scrollbars, is: <span class="page-info"><script>document.write(window.innerWidth);</script></span></p>
+							<p>• This window's outer height, which does include toolbars and scrollbars, is: <span class="page-info"><script>document.write(window.outerHeight);</script></span></p>
+							<p>• This window's outer width, which does include toolbars and scrollbars, is: <span class="page-info"><script>document.write(window.outerWidth);</script></span></p>
+						</div>
+					</div>
+					<div class="object-type">
+						<div>
+							<h3>The Screen Object</h3>
+							<p>This object returns information about the screen you are using to view this page. It can tell you the height, width, orientation, and even the color depth of your screen. Notice that when you resize your window and refresh, the numbers above in the Window Object change, but the Screen information here will not.</p>
+						</div>
+						<div class="object-info">
+							<p>• The total height of your screen is: <span class="page-info"><script>document.write(screen.height);</script></span></p>
+							<p>• The total width of your screen is: <span class="page-info"><script>document.write(screen.width);</script></span></p>
+							<p>• The color depth of your screen is: <span class="page-info"><script>document.write(screen.colorDepth);</script></span></p>
+							<p>• The orientation of your screen is: <span class="page-info"><script>document.write(screen.orientation.type);</script></span></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="wrapper">
+					<a href="index.html" class="header-link">⇠ Back to all projects</a>
+				</div>
+			</footer>
+		</div>
+	</body> 
+</html>

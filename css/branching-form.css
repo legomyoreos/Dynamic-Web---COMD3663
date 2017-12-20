@@ -1,0 +1,47 @@
+.formWrapper {
+	margin-top: 30px;
+	max-width: 50%;
+	border: 3px solid #ffc826;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .20);
+}
+
+#rating {
+	width: 75%;
+}
+
+.formWrapper h3 {
+	max-width: 75%;
+	line-height: 1.5;
+}
+
+#response a {
+	color: #ffc826;
+}
+
+.label-style {
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+form input {
+	outline: none;
+	padding: 10px 15px;
+	margin-top: 5px;
+}
+
+form input:focus {
+	border: 1px solid #ffc826;
+}
+
+form textarea {
+	outline: none;
+}
+
+form textarea:focus {
+	border: 1px solid #ffc826;
+}
+
+.formHome {
+	color: #ffc826;
+	font-weight: 700;
+}

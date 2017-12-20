@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Project 8b: Updated jQuery Article MOBILE</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/wikipedia.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-article.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-article.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+		<script>
+		  $( function() {
+		    $( "#menu" ).menu({
+		      items: "> :not(.ui-widget-header)"
+		    });
+		  } );
+
+		  $( function() {
+		    $( document ).tooltip();
+		  } );
+
+		  $( function() {
+		    $( "#accordion" ).accordion({
+		      collapsible: true,
+		      heightStyle: "content"
+		    });
+		  } );
+
+		  window.addEventListener("resize", function() {
+		  	if (window.innerWidth > 768) {
+		  		window.location.replace("jquery-article-tooltips.html");
+		  	}
+		  });
+
+		 </script>
+
+		 <style>
+		 	
+		 	#font-buttons {
+		 		width: fit-content;
+		 	}
+
+		 	/*.ui-widget.ui-widget-content {
+		 		border: none;
+		 	}*/
+
+		 	.ui-widget-header {
+		 		border: none;
+		 		background: #ffc826;
+		 	}
+
+		 	#menu li {
+		 		padding: 10px;
+		 	}
+
+		 	label {
+			    display: inline-block;
+			    width: 5em;
+			  }
+
+			 a {
+			 	color: #00CED1;
+			 	font-weight: 700;
+			 }
+
+			 #font-buttons {
+			 	display: none;
+			 }
+
+			 #article-description {
+			 	width: 100%;
+			 }
+
+		 </style>
+
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div id="intro" class="wrapper">
+					<h1>Project 8b: <span id="project_name">Updated jQuery Article MOBILE</span></h1>
+					<p id="project-heading-text">Redirected mobile version of site with Accordion.</p>
+					<a href="index.html" class="header-link" id="all_projects">⇠ Back to all projects</a>
+				</div>
+			</header>
+			<section>
+				<div class="wrapper">
+					<div id="article-heading">
+						<article id="article-description">
+							<img id="hero" src="img/assassins_creed.jpg">
+							<h2>Assassin's Creed Origins</h2>
+							<p>Assassin's Creed Origins is an action-adventure video game developed by Ubisoft Montreal and published by Ubisoft. It is the tenth major installment in the Assassin's Creed series and the successor to 2015's Assassin's Creed Syndicate. It was released worldwide for Microsoft Windows, PlayStation 4, and Xbox One on October 27, 2017.</p>
+
+							<p>The game is set in Ancient Egypt during the <a href="#" title="Started with Ptolemy I Soter's accession after the death of Alexander the Great in 323 BC and which ended with the death of Cleopatra VII and the Roman conquest in 30 BC.">Ptolemaic period</a> and recounts the secret fictional history of real-world events. The story explores the origins of the centuries-long conflict between the Brotherhood of Assassins, who fight for peace by promoting liberty and The Order of the Ancients—forerunners to the Templar Order—who desire peace through the forceful imposition of order. Origins received positive reviews from critics, who praised the story, characters, voice acting, reworked gameplay-systems, immersive world of Egypt and the visuals, while criticizing some of the pacing and technical issues. The game has been lauded as either the best or one of the best installments in the series by multiple critics.</p>
+
+							<div id="accordion">
+								<h3 id="mHistory_heading" class="toggle_button">Gameplay   ▾</h3>
+								<div id="mHistory_text">
+									<p>Assassin's Creed Origins is an action-adventure stealth game played from a <a href=# title="Third-person is a perspective in which the player can visibly see the body of the controlled character. This is seen in most third-person shooters and adventure games. It most commonly refers to a viewpoint behind the player character.">third-person</a> perspective. Players complete quests—linear scenarios with set objectives—to progress through the story, earn experience points, and acquire new skills. Outside of quests, players can freely roam the open world environment on foot, horseback, camel-back or boat to explore locations, complete optional side-quests and unlock weapons and equipment.</p>
+									<p>The "eagle vision" mode, which was used by the franchise to give players the ability to scout an area by highlighting enemies and objects, has been replaced by a Bonelli's eagle named Senu as a companion. Players are able to take control of Senu and scout an area in advance, highlighting enemies which will then be visible when they return to controlling Bayek, the game's main character. Players can also tame various predators which will serve as a companion for the players and assist them against enemies. Naval combat, underwater exploration and tomb raiding return to the series. However, unlike previous games in the series, Origins Does not include many tall structures for climbing to unlock areas of the map.</p>
+									<p>The game also features revised combat mechanics. Previous titles in the Assassin's Creed series used a "paired animation system" whereby the player character would engage with an enemy and combat would be dictated by a series of predeterminted animations based on player inputs and scripted AI movements. Assassin's Creed Origins will move to a "hit-box system". When the player wields a weapon, they will strike at whatever is in range, allowing them to hit enemies directly, injure individual body parts, and creating the possibility of missing an enemy entirely. Complementing this is the way weapons fall into different categories and are rated on their damage dealt, speed and range.</p>
+									<img src="img/gameplay.jpg">
+									<p>(Click to enlarge)</p>
+								</div>
+							
+								<h3 id="effects_heading" class="toggle_button">Plot   ▾</h3>
+								<div id="effects_text">
+									<p>The player takes on the role of a <a href="#" title="In the New Kingdom of ancient Egypt, the Medjay were an elite paramilitary police force.">Medjay</a> named Bayek as he works to protect the people of the Ptolemaic Kingdom during a time of widespread upheaval: the Pharaoh, Ptolemy XIII, struggles to maintain his rule whilst harbouring ambitions of expanding his kingdom; his sister, the recently deposed Cleopatra, begins marshalling loyalist forces to launch a counter-coup against Ptolemy; and frequent incursions into the Kingdom by the Roman Republic under the command of Julius Caesar lead to fears of an imminent invasion. Bayek's role as a Medjay brings him into contact with the secretive forces manipulating these events and sees him become the first Assassin.</p>
+									<img src="img/cleo.png">
+									<p>(Click to enlarge)</p>
+								</div>
+							
+								<h3 id="aftermath_heading" class="toggle_button">Development   ▾</h3>
+								<div id="aftermath_text">
+									<p>Development of Assassin's Creed Origins started in early 2014, after the completion of Assassin's Creed IV: Black Flag. The series had been following a yearly release cycle, but after the launch of Assassin's Creed Syndicate in 2015, Ubisoft chose to delay the release of Origins until 2017. Ubisoft CEO Yves Guillemot cited a desire to focus on the quality of the individual titles, the opportunity to develop future games with new engines, and the disappointing sales of Syndicate as the reasons behind the decision. The team enlisted Ubisoft Kiev to develop the PC version in parallel with the console versions.</p>
+
+									<p>Information on Origins, then titled Assassin's Creed Empire, first leaked in January 2017, showing several screenshots of a character on a boat and in front of a cave. The game was officially revealed on June 11, 2017. It is being developed using the latest iteration of the AnvilNext engine.[citation needed] During production of Assassin's Creed III in November 2011 Ubisoft conducted a fan survey exploring potential settings for future titles. Ancient Egypt was one of the most popular choices, but Alex Hutchinson, the creative director of Assassin's Creed III, dismissed the results as he considered Ancient Egypt—as with the other two chosen settings, feudal Japan and World War II—as being "the worst choices" for a setting. The development team hired Egyptologists to assist in making the open world more accurate to the time period.</p>
+									<img src="img/development.jpg">
+									<p>(Click to enlarge)</p>
+								</div>
+
+						</div> <!-- End of accordion div -->
+						</article>
+						<div id="font-buttons">
+							<ul id="menu">
+								<li class="ui-widget-header">Text Controls</li>
+								<li><div id="expandAllText">Show All Sections</div></li>
+								<li><div id="hideAllText">Hide All Sections</div></li>
+								<li class="ui-widget-header">Image Controls</li>
+								<li><div id="showAllImages">Show/Hide All Images</div></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

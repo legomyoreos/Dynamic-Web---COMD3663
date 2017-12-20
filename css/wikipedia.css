@@ -1,0 +1,59 @@
+#project-heading-text {
+	font-size: 20px !important;
+}
+
+#article-heading {
+	display: flex;
+	justify-content: space-between;
+}
+
+#article-description {
+	width: 60%;
+}
+
+#font-buttons {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 75%;
+}
+
+.btn {
+	margin: 2%;
+}
+
+#font-buttons p {
+	margin-bottom: 0;
+}
+
+#font-buttons > p:nth-child(5) {
+	margin: 20px 0 0 0;
+}
+
+img {
+	border-radius: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.collapse_text {
+	/* color: #ffc826; */
+	text-decoration: underline;
+	margin: 20px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+/* METEROLOGICAL HISTORY */
+
+.toggle_button {
+	margin: 30px 0 15px 0;
+	padding: 20px 20px;
+	background-color: #ffc826;
+}
+#mHistory_text, #effects_text, #aftermath_text, #environment_text {
+	display: none;
+}
+

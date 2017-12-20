@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Project 6: JavaScript Slideshow</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+		<!-- <script type="text/javascript" src="js/mediaplayer.js"></script> -->
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div id="intro" class="wrapper">
+					<h1>Project 6: <span id="project_name">JavaScript Slideshow</span></h1>
+					<p id="project-heading-text">Custom slideshow using HTML, CSS, and a few JavaScript functions.</p>
+					<a href="index.html" class="header-link" id="all_projects">⇠ Back to all projects</a>
+				</div>
+			</header>
+			<section>
+				<div class="wrapper">
+					<div id="galleryWrapper">
+						<h2>Architecture Around the World</h2>
+						<div id="gallery">
+						  <img src="img/gallery/image_1.jpg" alt="Beijing, China" class="active" id="1">
+						  <img src="img/gallery/image_2.jpg" alt="Casablanca, Morocco" class="" id="2">
+						  <img src="img/gallery/image_3.jpg" alt="Abidjan, Ivory Coast" class="" id="3">
+						  <img src="img/gallery/image_4.jpg" alt="Madrid, Spain" class="" id="4">
+						  <img src="img/gallery/image_5.png" alt="Mumbai, India" class="" id="5">
+						  <img src="img/gallery/image_6.jpg" alt="Yokohama, Japan" class="" id="6">
+						  <img src="img/gallery/image_7.jpg" alt="Lima, Peru" class="" id="7">
+						  <img src="img/gallery/image_8.jpg" alt="Bogota, Colombia" class="" id="8">
+						  <div id="caption">Beijing, China</div>
+						</div>
+						<div id="thumbnails">
+						  <div onclick="changePic('1', 'Beijing, China')"><img class="active" src="img/gallery/image_1.jpg"> </div>
+						  <div onclick="changePic('2', 'Casablanca, Morocco')">  <img class="" src="img/gallery/image_2.jpg"> </div>
+						  <div onclick="changePic('3', 'Abidjan, Ivory Coast')"> <img class="" src="img/gallery/image_3.jpg"> </div>
+						  <div onclick="changePic('4', 'Madrid, Spain')"> <img class="" src="img/gallery/image_4.jpg"> </div>
+						  <div onclick="changePic('5', 'Mumbai, India')"> <img class="" src="img/gallery/image_5.png"> </div>
+						  <div onclick="changePic('6', 'Yokohama, Japan')"> <img class="" src="img/gallery/image_6.jpg"> </div>
+						  <div onclick="changePic('7', 'Lima, Peru')"> <img class="" src="img/gallery/image_7.jpg"> </div>
+						  <div onclick="changePic('8', 'Bogota, Colombia')"> <img class="" src="img/gallery/image_8.jpg"> </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body> 
+</html>
